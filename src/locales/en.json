@@ -8,12 +8,12 @@
     "sign_up_link": "Sign up"
   },
   "BaseTemplate": {
-    "description": "Starter code for your Nextjs Boilerplate with Tailwind CSS",
-    "made_with": "Made with"
+    "description": "An app demo project based on the Next-js-Boilerplate template",
+    "made_with": ""
   },
   "Index": {
     "meta_title": "Next.js Boilerplate Presentation",
-    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
+    "meta_description": "demo"
   },
   "Guestbook": {
     "meta_title": "Guestbook",

@@ -34,32 +34,33 @@ export default withSentryConfig(
     // Suppresses source map uploading logs during build
     silent: true,
     // FIXME: Add your Sentry organization and project names
-    org: 'nextjs-boilerplate-org',
-    project: 'nextjs-boilerplate',
+    org: '673972d1c6a2',
+    project: 'next-app-demo',
+
+    // An auth token is required for uploading source maps.
+    authToken: process.env.SENTRY_AUTH_TOKEN,
   },
   {
     // For all available options, see:
     // https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/
 
-    // Upload a larger set of source maps for prettier stack traces (increases build time)
+    // 要上传所有文件和源映射（包括来自第三方包的文件和源映射），请将选项设置 true
     widenClientFileUpload: true,
 
     // Transpiles SDK to be compatible with IE11 (increases bundle size)
     transpileClientSDK: true,
 
-    // Routes browser requests to Sentry through a Next.js rewrite to circumvent ad-blockers (increases server load)
+    // 配置隧道以避免广告拦截器
     tunnelRoute: '/monitoring',
 
-    // Hides source maps from generated client bundles
+    // 阻止您构建的文件包含sourceMappingURL注释，从而使源映射对浏览器不可见
     hideSourceMaps: true,
 
-    // Automatically tree-shake Sentry logger statements to reduce bundle size
+    // 禁用 Sentry SDK 调试记录器以节省包大小
     disableLogger: true,
 
-    // Enables automatic instrumentation of Vercel Cron Monitors.
-    // See the following for more information:
-    // https://docs.sentry.io/product/crons/
-    // https://vercel.com/docs/cron-jobs
+    // Vercel Cron 作业的检测
+    // Vercel cron 作业的自动检测目前仅适用于 Pages Router。App Router 路由处理程序尚不受支持。
     automaticVercelMonitors: true,
   },
 );

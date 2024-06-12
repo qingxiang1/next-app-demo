@@ -1,22 +1,22 @@
 {
   "RootLayout": {
-    "home_link": "Accueil",
-    "about_link": "A propos",
-    "guestbook_link": "Livre d'or",
-    "portfolio_link": "Portfolio",
-    "sign_in_link": "Se connecter",
-    "sign_up_link": "S'inscrire"
+    "home_link": "首页",
+    "about_link": "关于",
+    "guestbook_link": "留言簿",
+    "portfolio_link": "文件夹",
+    "sign_in_link": "登录",
+    "sign_up_link": "注册"
   },
   "BaseTemplate": {
-    "description": "Code de démarrage pour Next.js avec Tailwind CSS",
-    "made_with": "Fait avec"
+    "description": "基于 Next-js-Boilerplate 模板实现的 app 演示项目",
+    "made_with": "采用"
   },
   "Index": {
-    "meta_title": "Présentation de Next.js Boilerplate",
-    "meta_description": "Next js Boilerplate est le code de démarrage parfait pour votre projet. Construisez votre application React avec le framework Next.js."
+    "meta_title": "Next.js 样板演示",
+    "meta_description": "样板演示"
   },
   "Guestbook": {
-    "meta_title": "Livre d'or",
+    "meta_title": "",
     "meta_description": "Un exemple de fonctionnement CRUD",
     "database_powered_by": "Base de données propulsée par",
     "loading_guestbook": "Chargement du livre d'or...",
