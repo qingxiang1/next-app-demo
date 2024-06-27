@@ -57,15 +57,15 @@
     "meta_description": "Créez un compte sans effort grâce à notre processus d'inscription intuitif."
   },
   "Dashboard": {
-    "meta_title": "Tableau de bord",
-    "hello_message": "Bonjour {email}!"
+    "meta_title": "工作台",
+    "hello_message": "你好 {email}!"
   },
   "UserProfile": {
-    "meta_title": "Profil de l'utilisateur"
+    "meta_title": "基本信息"
   },
   "DashboardLayout": {
-    "dashboard_link": "Tableau de bord",
-    "user_profile_link": "Gérer votre compte",
-    "sign_out": "Se déconnecter"
+    "dashboard_link": "工作台",
+    "user_profile_link": "账户设置",
+    "sign_out": "退出登录"
   }
 }

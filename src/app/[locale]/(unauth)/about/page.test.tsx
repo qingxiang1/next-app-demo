@@ -9,7 +9,7 @@ describe('About page', () => {
   describe('Render method', () => {
     it('should have a text starting with `Welcome to our About page`', () => {
       render(
-        <NextIntlClientProvider locale="cn" messages={messages}>
+        <NextIntlClientProvider locale="zh" messages={messages}>
           <About />
         </NextIntlClientProvider>,
       );

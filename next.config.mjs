@@ -51,7 +51,7 @@ export default withSentryConfig(
     transpileClientSDK: true,
 
     // 配置隧道以避免广告拦截器
-    tunnelRoute: '/monitoring',
+    // tunnelRoute: '/monitoring',
 
     // 阻止您构建的文件包含sourceMappingURL注释，从而使源映射对浏览器不可见
     hideSourceMaps: true,

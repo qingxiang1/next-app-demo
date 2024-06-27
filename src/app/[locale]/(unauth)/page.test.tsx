@@ -9,7 +9,7 @@ describe('Index page', () => {
   describe('Render method', () => {
     it('should have h1 tag', () => {
       render(
-        <NextIntlClientProvider locale="cn" messages={messages}>
+        <NextIntlClientProvider locale="zh" messages={messages}>
           <Index />
         </NextIntlClientProvider>,
       );
